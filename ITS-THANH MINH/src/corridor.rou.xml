@@ -1,0 +1,28 @@
+<!-- corridor.rou.xml: Định nghĩa phương tiện Krauss và dòng xe 1200 veh/h -->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Định nghĩa kiểu phương tiện xe con tiêu chuẩn theo mô hình Krauss -->
+    <vType id="standard_car" 
+           carFollowModel="Krauss" 
+           length="4.50" 
+           minGap="2.50" 
+           maxSpeed="13.89" 
+           speedFactor="normc(1.00,0.10,0.80,1.20)" 
+           accel="2.50" 
+           decel="4.50" 
+           tau="1.00" 
+           sigma="0.50" 
+           color="0,150,255" />
+
+    <!-- Tuyến đường xuyên suốt qua 5 nút giao -->
+    <route id="main_route" edges="E_in_N1 E_N1_N2 E_N2_N3 E_N3_N4 E_N4_N5 E_N5_out" />
+
+    <!-- Dòng xe cơ sở 1.200 xe/giờ = 0.333 xe/giây (period = 3s) -->
+    <flow id="flow_main" 
+          type="standard_car" 
+          route="main_route" 
+          begin="0" 
+          end="3600" 
+          period="3.00" 
+          departLane="best" 
+          departSpeed="max" />
+</routes>

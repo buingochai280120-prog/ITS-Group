@@ -1,0 +1,37 @@
+<!-- corridor.add.xml: Định nghĩa chương trình đèn Làn Sóng Xanh với Offset tối ưu -->
+<additional>
+    <!-- N1: Nút gốc, offset = 0s (C = 90s, G = 50s, Y = 3s, R = 37s) -->
+    <tlLogic id="TLS_N1" type="static" programID="green_wave" offset="0">
+        <phase duration="50" state="GGgrrrGGgrrr" name="Main_Green" />
+        <phase duration="3"  state="yyyrrryyyrrr" name="Main_Yellow" />
+        <phase duration="37" state="rrrGGgrrrGGg" name="Side_Green" />
+    </tlLogic>
+
+    <!-- N2: Cách N1 là 450m -> Offset = 450 / 13.889 = 32.4s -->
+    <tlLogic id="TLS_N2" type="static" programID="green_wave" offset="32">
+        <phase duration="50" state="GGgrrrGGgrrr" name="Main_Green" />
+        <phase duration="3"  state="yyyrrryyyrrr" name="Main_Yellow" />
+        <phase duration="37" state="rrrGGgrrrGGg" name="Side_Green" />
+    </tlLogic>
+
+    <!-- N3: Cách N1 là 1.050m -> Offset = 1050 / 13.889 = 75.6s -->
+    <tlLogic id="TLS_N3" type="static" programID="green_wave" offset="76">
+        <phase duration="50" state="GGgrrrGGgrrr" name="Main_Green" />
+        <phase duration="3"  state="yyyrrryyyrrr" name="Main_Yellow" />
+        <phase duration="37" state="rrrGGgrrrGGg" name="Side_Green" />
+    </tlLogic>
+
+    <!-- N4: Cách N1 là 1.550m -> T_t = 111.6s -> Offset = 111.6 mod 90 = 21.6s -->
+    <tlLogic id="TLS_N4" type="static" programID="green_wave" offset="22">
+        <phase duration="50" state="GGgrrrGGgrrr" name="Main_Green" />
+        <phase duration="3"  state="yyyrrryyyrrr" name="Main_Yellow" />
+        <phase duration="37" state="rrrGGgrrrGGg" name="Side_Green" />
+    </tlLogic>
+
+    <!-- N5: Cách N1 là 2.100m -> T_t = 151.2s -> Offset = 151.2 mod 90 = 61.2s -->
+    <tlLogic id="TLS_N5" type="static" programID="green_wave" offset="61">
+        <phase duration="50" state="GGgrrrGGgrrr" name="Main_Green" />
+        <phase duration="3"  state="yyyrrryyyrrr" name="Main_Yellow" />
+        <phase duration="37" state="rrrGGgrrrGGg" name="Side_Green" />
+    </tlLogic>
+</additional>

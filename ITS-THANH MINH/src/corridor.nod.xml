@@ -1,0 +1,25 @@
+<!-- corridor.nod.xml: Định nghĩa tọa độ các nút giao N1 đến N5 -->
+<nodes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
+    <!-- Nút bắt đầu và kết thúc mạng đường -->
+    <node id="N_start" x="-200.0" y="0.0" type="priority" />
+    <node id="N_end"   x="2300.0" y="0.0" type="priority" />
+
+    <!-- 5 Nút giao có đèn tín hiệu (traffic_light) với cự ly thực tế -->
+    <node id="N1" x="0.0"    y="0.0" type="traffic_light" tl="TLS_N1" />
+    <node id="N2" x="450.0"  y="0.0" type="traffic_light" tl="TLS_N2" />
+    <node id="N3" x="1050.0" y="0.0" type="traffic_light" tl="TLS_N3" />
+    <node id="N4" x="1550.0" y="0.0" type="traffic_light" tl="TLS_N4" />
+    <node id="N5" x="2100.0" y="0.0" type="traffic_light" tl="TLS_N5" />
+
+    <!-- Các nút biên của đường nhánh ngang (Bắc - Nam) -->
+    <node id="N1_North" x="0.0" y="150.0" type="priority" />
+    <node id="N1_South" x="0.0" y="-150.0" type="priority" />
+    <node id="N2_North" x="450.0" y="150.0" type="priority" />
+    <node id="N2_South" x="450.0" y="-150.0" type="priority" />
+    <node id="N3_North" x="1050.0" y="150.0" type="priority" />
+    <node id="N3_South" x="1050.0" y="-150.0" type="priority" />
+    <node id="N4_North" x="1550.0" y="150.0" type="priority" />
+    <node id="N4_South" x="1550.0" y="-150.0" type="priority" />
+    <node id="N5_North" x="2100.0" y="150.0" type="priority" />
+    <node id="N5_South" x="2100.0" y="-150.0" type="priority" />
+</nodes>

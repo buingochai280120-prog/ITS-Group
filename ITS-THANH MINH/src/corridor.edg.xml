@@ -1,0 +1,25 @@
+<edges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+    <!-- Đoạn đường trục chính (3 làn xe, rộng 3.5m, tốc độ thiết kế 50 km/h = 13.89 m/s) -->
+    <edge id="E_in_N1"  from="N_start" to="N1" numLanes="3" speed="13.89" width="3.5" priority="3" />
+    <edge id="E_N1_N2"  from="N1" to="N2" numLanes="3" speed="13.89" width="3.5" priority="3" />
+    <edge id="E_N2_N3"  from="N2" to="N3" numLanes="3" speed="13.89" width="3.5" priority="3" />
+    <edge id="E_N3_N4"  from="N3" to="N4" numLanes="3" speed="13.89" width="3.5" priority="3" />
+    <edge id="E_N4_N5"  from="N4" to="N5" numLanes="3" speed="13.89" width="3.5" priority="3" />
+    <edge id="E_N5_out" from="N5" to="N_end" numLanes="3" speed="13.89" width="3.5" priority="3" />
+
+    <!-- Các đường nhánh ngang cho cả 5 nút giao (2 làn xe, tốc độ 40 km/h = 11.11 m/s) -->
+    <edge id="E_N1_N" from="N1_North" to="N1" numLanes="2" speed="11.11" width="3.5" priority="1" />
+    <edge id="E_N1_S" from="N1_South" to="N1" numLanes="2" speed="11.11" width="3.5" priority="1" />
+
+    <edge id="E_N2_N" from="N2_North" to="N2" numLanes="2" speed="11.11" width="3.5" priority="1" />
+    <edge id="E_N2_S" from="N2_South" to="N2" numLanes="2" speed="11.11" width="3.5" priority="1" />
+
+    <edge id="E_N3_N" from="N3_North" to="N3" numLanes="2" speed="11.11" width="3.5" priority="1" />
+    <edge id="E_N3_S" from="N3_South" to="N3" numLanes="2" speed="11.11" width="3.5" priority="1" />
+
+    <edge id="E_N4_N" from="N4_North" to="N4" numLanes="2" speed="11.11" width="3.5" priority="1" />
+    <edge id="E_N4_S" from="N4_South" to="N4" numLanes="2" speed="11.11" width="3.5" priority="1" />
+
+    <edge id="E_N5_N" from="N5_North" to="N5" numLanes="2" speed="11.11" width="3.5" priority="1" />
+    <edge id="E_N5_S" from="N5_South" to="N5" numLanes="2" speed="11.11" width="3.5" priority="1" />
+</edges>
