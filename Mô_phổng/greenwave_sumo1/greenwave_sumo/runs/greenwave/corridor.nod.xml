@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes>
+    <node id="W0" x="-300.0" y="0" type="dead_end"/>
+    <node id="E0" x="2400.0" y="0" type="dead_end"/>
+    <node id="N1" x="0.0" y="0" type="traffic_light"/>
+    <node id="U1" x="0.0" y="300.0" type="dead_end"/>
+    <node id="D1" x="0.0" y="-300.0" type="dead_end"/>
+    <node id="N2" x="450.0" y="0" type="traffic_light"/>
+    <node id="U2" x="450.0" y="300.0" type="dead_end"/>
+    <node id="D2" x="450.0" y="-300.0" type="dead_end"/>
+    <node id="N3" x="1050.0" y="0" type="traffic_light"/>
+    <node id="U3" x="1050.0" y="300.0" type="dead_end"/>
+    <node id="D3" x="1050.0" y="-300.0" type="dead_end"/>
+    <node id="N4" x="1550.0" y="0" type="traffic_light"/>
+    <node id="U4" x="1550.0" y="300.0" type="dead_end"/>
+    <node id="D4" x="1550.0" y="-300.0" type="dead_end"/>
+    <node id="N5" x="2100.0" y="0" type="traffic_light"/>
+    <node id="U5" x="2100.0" y="300.0" type="dead_end"/>
+    <node id="D5" x="2100.0" y="-300.0" type="dead_end"/>
+</nodes>

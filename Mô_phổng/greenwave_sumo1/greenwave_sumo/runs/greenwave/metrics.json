@@ -1,0 +1,27 @@
+{
+  "name": "KB2",
+  "mode": "greenwave",
+  "seed": 1,
+  "flow_vph": 1200,
+  "cycle": 90,
+  "speed_kmh": 50,
+  "S_stops_per_veh": 0.2011111111111111,
+  "D_delay_s": 19.17621758827059,
+  "TT_s": 177.52279492837772,
+  "TT_free_s": 151.2,
+  "Qmax_veh": 18,
+  "Qmax_m_max": 40.5621757745665,
+  "Qmax_m_by_node": {
+    "N1": 40.6,
+    "N2": 12.5,
+    "N3": 12.5,
+    "N4": 12.5,
+    "N5": 19.5
+  },
+  "TH_vph": 1200.0,
+  "completed_total": 1115,
+  "cohort_n": 900,
+  "cohort_done": 900,
+  "cohort_unfinished": 0,
+  "pct_no_stop": 80.11111111111111
+}

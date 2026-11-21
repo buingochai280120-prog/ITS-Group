@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+    <vType id="car" vClass="passenger" carFollowModel="Krauss" length="4.5" minGap="2.5" maxSpeed="13.89" accel="2.5" decel="4.5" tau="1.0" sigma="0.5" speedDev="0.1"/>
+    <route id="eastbound" edges="W0_N1 N1_N2 N2_N3 N3_N4 N4_N5 N5_E0"/>
+    <flow id="main" type="car" route="eastbound" begin="0" end="3600" period="3.0000" departLane="free" departSpeed="max"/>
+</routes>

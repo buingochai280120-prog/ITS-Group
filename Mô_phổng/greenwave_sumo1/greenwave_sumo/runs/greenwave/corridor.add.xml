@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional>
+    <tlLogic id="N1" type="static" programID="greenwave" offset="0">
+        <phase duration="50" state="rrrrGGGGgrrrrGGGGg"/>
+        <phase duration="3" state="rrrryyyyyrrrryyyyy"/>
+        <phase duration="34" state="GGGgrrrrrGGGgrrrrr"/>
+        <phase duration="3" state="yyyyrrrrryyyyrrrrr"/>
+    </tlLogic>
+    <tlLogic id="N2" type="static" programID="greenwave" offset="32">
+        <phase duration="50" state="rrrrGGGGgrrrrGGGGg"/>
+        <phase duration="3" state="rrrryyyyyrrrryyyyy"/>
+        <phase duration="34" state="GGGgrrrrrGGGgrrrrr"/>
+        <phase duration="3" state="yyyyrrrrryyyyrrrrr"/>
+    </tlLogic>
+    <tlLogic id="N3" type="static" programID="greenwave" offset="76">
+        <phase duration="50" state="rrrrGGGGgrrrrGGGGg"/>
+        <phase duration="3" state="rrrryyyyyrrrryyyyy"/>
+        <phase duration="34" state="GGGgrrrrrGGGgrrrrr"/>
+        <phase duration="3" state="yyyyrrrrryyyyrrrrr"/>
+    </tlLogic>
+    <tlLogic id="N4" type="static" programID="greenwave" offset="22">
+        <phase duration="50" state="rrrrGGGGgrrrrGGGGg"/>
+        <phase duration="3" state="rrrryyyyyrrrryyyyy"/>
+        <phase duration="34" state="GGGgrrrrrGGGgrrrrr"/>
+        <phase duration="3" state="yyyyrrrrryyyyrrrrr"/>
+    </tlLogic>
+    <tlLogic id="N5" type="static" programID="greenwave" offset="61">
+        <phase duration="50" state="rrrrGGGGgrrrrGGGGg"/>
+        <phase duration="3" state="rrrryyyyyrrrryyyyy"/>
+        <phase duration="34" state="GGGgrrrrrGGGgrrrrr"/>
+        <phase duration="3" state="yyyyrrrrryyyyrrrrr"/>
+    </tlLogic>
+</additional>
